@@ -1,0 +1,320 @@
+{
+  "QCustomSlideMenu": [
+    {
+      "name": "menu_widget",
+      "defaultSize": [
+        {
+          "width": "250",
+          "height": "auto"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "250",
+          "height": "auto"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "open_close_side_bar_btn",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/icons/icons/align-left.svg",
+              "whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+            }
+          ],
+          "style": [
+            {
+              "whenMenuIsCollapsed": [
+                "border: 2px solid transparent"
+              ],
+              "whenMenuIsExpanded": [
+                "border: 2px solid rgb(9, 5, 13)"
+              ]
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 1000,
+          "animationEasingCurve": "OutInBack"
+        }
+      ],
+      "menuContainerStyle": [{
+        "whenMenuIsExpanded": [
+          "background-color: rgb(9, 5, 13);"
+        ]
+      }]
+    },
+    {
+      "name": "right_menu",
+      "default_Size": [
+        {
+          "width": 200,
+          "height": "auto"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 200,
+          "height": "auto"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "right_menu_toggle_btn",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/icons/icons/settings.svg",
+              "whenMenuIsExpanded": ":/icons/icons/chevron-right.svg"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "search_widget",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": "auto",
+          "height": 0
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "auto",
+          "height": "auto"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "search_menu_btn"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "notifications_widget",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "auto",
+          "height": "auto"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "notification_btn"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 200,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "bottom_menu",
+      "defaultSize": [
+        {
+          "width": "auto",
+          "height": "0"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": "auto",
+          "height": "0"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "auto",
+          "height": "112"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "bottom_menu_button"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 200,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "login_widget",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "auto",
+          "height": "auto"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "account_btn"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 200,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "header_search_widget",
+      "defaultSize": [
+        {
+          "width": "auto",
+          "height": 0
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": "auto",
+          "height": 0
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "auto",
+          "height": 65
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "search_btn"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 200,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "messages_widget",
+      "defaultSize": [
+        {
+          "width": "auto",
+          "height": 0
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": "auto",
+          "height": 0
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": "auto",
+          "height": "auto"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "messages_btn"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 200,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    }
+  ],
+  "QMainWindow": [
+    {
+      "tittle": "My Responsive UI",
+      "icon": ":/icons/icons/github.svg",
+      "frameless": true,
+      "translucentBg": true,
+      "sizeGrip": "size_grip",
+      "shadow": [
+        {
+          "color": "#fff",
+          "blurRadius": 20,
+          "xOffset": 0,
+          "yOffset": 0,
+          "centralWidget": "centralwidget"
+        }
+      ],
+      "navigation": [
+        {
+          "minimize": "minimize_window_button",
+          "close": "close_window_button",
+          "restore": [
+            {
+              "buttonName": "restore_window_button",
+              "normalIcon": ":/icons/icons/maximize-2.svg",
+              "maximizedIcon": ":/icons/icons/minimize-2.svg"
+            }
+          ],
+          "moveWindow": "header_frame",
+          "tittleBar": "header_frame"
+        }
+      ]
+    }
+  ]
+}
